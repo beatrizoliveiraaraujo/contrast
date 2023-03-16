@@ -24,6 +24,12 @@
   color: white;
 }
 
+#contraste{
+  border-style: none;
+  background-color: transparent;
+  font-size: 36px;
+}
+
 .App-link {
   color: #61dafb;
 }

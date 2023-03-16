@@ -2,6 +2,8 @@
 import './App.css';
 import $ from 'jquery';
 import Teste from './components/teste'
+import React from 'react';
+import { BsTerminalDash } from "react-icons/bs";
 
 function App() {
   $("body").on("click", "#contraste", () => {  
@@ -52,7 +54,7 @@ function App() {
     <div class="container py-2">
         <div class="row">
           <div class="col-md-12">
-            <button class="btn btn-primary" id="contraste">Auto Contraste</button>
+            <button class="btn btn-primary" id="contraste"><BsTerminalDash/></button>
             <button class="btn btn-primary" id="grayescale">Escala de Cinza</button>
             <button class="btn btn-primary" id="increaseFont">A+</button>
             <button class="btn btn-primary" id="decreaseFont">A-</button>
@@ -66,7 +68,7 @@ function App() {
       <div>
       <Teste/>
       </div>
-      </>
+    </>
   );
 }
  
